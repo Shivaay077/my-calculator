@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+html,body{
+    width: 100px;
+    height: 100px;
+}
+#main{
+   display: flex;
+  align-items: center;
+  justify-content: center;
+    width: 1400%;
+    height: 800px;
+    background-color: rgb(172, 242, 172);
+}
+#panel{
+    overflow: hidden;
+    width: 90%;
+    height: 80%;
+    border-radius: 10px;
+    background-color: white;
+    
+
+}
+#ptop{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(6, 122, 6);
+
+}
